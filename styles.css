@@ -1,0 +1,193 @@
+@import url('https://fonts.googleapis.com/css2?family=Pixelify+Sans&display=swap');
+
+body {
+    overflow: hidden;
+    background-color: #f7f2f7;
+}
+
+h1,
+p {
+    font-family: "Pixelify Sans", sans-serif;
+}
+
+#svgs {
+    position: absolute;
+    top: 15em;
+    left: 20%;
+    display: flex;
+    flex-direction: row;
+}
+
+#svgs>div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+h1 {
+    text-align: center;
+    font-size: 5em;
+}
+
+h1:hover {
+    color: #BE80B2;
+}
+
+p {
+    text-align: center;
+    margin-left: 4em;
+    margin-bottom: 0;
+    margin-top: 0;
+}
+
+#icons {
+    width: 500px;
+    height: 500px;
+}
+
+svg#kutchipatchi {
+    fill: #AACC02;
+}
+
+#k {
+    color: #AACC02;
+}
+
+svg#mametchi {
+    fill: #004C86;
+}
+
+#ma {
+    color: #004C86;
+}
+
+svg#memetchi {
+    fill: #F8B600;
+}
+
+#me {
+    color: #F8B600;
+}
+
+svg#sebiretchi {
+    fill: #E999BC;
+}
+
+#s {
+    color: #E999BC;
+}
+
+svg#violetchi {
+    fill: #BE80B2;
+}
+
+#v {
+    color: #BE80B2;
+}
+
+img {
+    padding: 0;
+}
+
+img#kutchipatchiImg {
+    width: 70px;
+    height: auto;
+    position: relative;
+    top: -48%;
+    left: 47%;
+    visibility: hidden;
+}
+
+img#mametchiImg {
+    width: 100px;
+    height: auto;
+    position: relative;
+    top: -48%;
+    left: 33%;
+    visibility: hidden;
+}
+
+img#memetchiImg {
+    width: 80px;
+    height: auto;
+    position: relative;
+    top: -50%;
+    left: 35%;
+    visibility: hidden;
+}
+
+img#sebiretchiImg {
+    width: 90px;
+    height: auto;
+    position: relative;
+    top: -48%;
+    left: 35%;
+    visibility: hidden;
+}
+
+img#violetchiImg {
+    width: 120px;
+    height: auto;
+    position: relative;
+    top: -54%;
+    left: 23%;
+    visibility: hidden;
+}
+
+#button {
+    background-color: transparent;
+    border: none;
+    color: #BE80B2;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 30px;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+#diagram {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 20%;
+    height: auto;
+    visibility: hidden;
+}
+
+#instructions {
+    font-family: 'Pixelify Sans', sans-serif;
+    background-color: transparent;
+    border: none;
+    color: #BE80B2;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 15px;
+    position: absolute;
+    bottom: 10px;
+    left: 0;
+}
+
+#text>p {
+    color: #BE80B2;
+    text-align: left;
+    text-transform: lowercase;
+    line-height: 2.3em;
+    margin-right: 3em;
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+#textKutchipatchi,
+#textMametchi,
+#textMemetchi,
+#textSebiretchi,
+#textVioletchi {
+    background: #e9d8e5;
+    box-shadow: 10px 10px 10px #dab7d3;
+    padding: 1em;
+    border-radius: 25px;
+    visibility: hidden;
+}

@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Assignment 2</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <h1>Tamagotchi</h1>
+    <div id="svgs">
+        <div id="kutchipatchi1">
+            <p id="k">kutchipatchi</p>
+            <svg viewBox="0 0 1000 1000" class="icons" id="kutchipatchi">
+                <use href="icons.svg#kutchipatchi" />
+            </svg>
+            <img id="kutchipatchiImg" src="images/kutchipatchi.png">
+        </div>
+
+        <div id="mametchi1">
+            <p id="ma">mametchi</p>
+            <svg viewBox="0 0 1000 1000" class="icons" id="mametchi">
+                <use href="icons.svg#mametchi" />
+            </svg>
+            <img id="mametchiImg" src="images/mametchi.png">
+        </div>
+
+        <div id="memetchi1">
+            <p id="me">memetchi</p>
+            <svg viewBox="0 0 1000 1000" class="icons" id="memetchi">
+                <use href="icons.svg#memetchi" />
+            </svg>
+            <img id="memetchiImg" src="images/memetchi.png">
+        </div>
+
+        <div id="sebiretchi1">
+            <p id="s">sebiretchi</p>
+            <svg viewBox="0 0 1000 1000" class="icons" id="sebiretchi">
+                <use href="icons.svg#sebiretchi" />
+            </svg>
+            <img id="sebiretchiImg" src="images/sebiretchi.png">
+        </div>
+
+        <div id="violetchi1">
+            <p id="v">violetchi</p>
+            <svg viewBox="0 0 1000 1000" class="icons" id="violetchi">
+                <use href="icons.svg#violetchi" />
+            </svg>
+            <img id="violetchiImg" src="images/violetchi.png">
+        </div>
+    </div>
+
+    <section id="text">
+        <p id="textKutchipatchi">
+            Name: Kutchipatchi <br>
+            Shape: round <br>
+            Color: green <br>
+            Personality: mild, lazy, romantic
+        </p>
+
+        <p id="textMametchi">
+            Name: Mametchi <br>
+            Shape: rabbit <br>
+            Color: light yellow <br>
+            Personality: clever, serious, well-mannered
+        </p>
+
+        <p id="textMemetchi">
+            Name: Memetchi <br>
+            Shape: inverted pear <br>
+            Color: orange <br>
+            Personality: bright, cheerful, sensitive
+        </p>
+
+        <p id="textSebiretchi">
+            Name: Sebiretchi <br>
+            Shape: dinosaur <br>
+            Color: bright yellow <br>
+            Personality: gentle, foodie
+        </p>
+
+        <p id="textVioletchi">
+            Name: Violetchi <br>
+            Shape: rectangular <br>
+            Color: purple <br>
+            Personality: relaxing, easygoing, warm
+        </p>
+    </section>
+
+    <button id="button" type="button">⏸</button>
+
+    <audio id="audio" loop autoplay>
+        <source src="music.mp3" type="audio/mpeg">
+    </audio>
+
+    <button id="instructions" type="button">instructions</button>
+    <img id="diagram" src="images/diagram.png">
+
+    <script src="script.js"></script>
+</body>
+
+</html>
